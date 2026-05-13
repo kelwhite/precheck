@@ -62,68 +62,7 @@
 
   # Verbose output
   prcheck --verbose
-
-  Learning Goals
-
-  This project teaches:
-  1. Go Basics: packages, functions, error handling
-  2. CLI Tools: flags, output formatting, user interaction
-  3. Git Operations: running git commands, parsing output
-  4. File I/O: reading configs, checking file existence
-  5. Testing: writing unit tests for Go code
-  6. Best Practices: project structure, documentation
-
-  Development Sections
-
-  Work through these in order:
-
-  Section 1: Setup & Hello World ✓
-
-  - Create repo
-  - Initialize Go module
-  - Create project structure
-  - Write basic main.go
-
-  Section 2: Check GPG Signatures
-
-  - Write pkg/git/signatures.go
-  - Integrate into main.go
-  - Test with signed/unsigned commits
-
-  Section 3: Check Email Match
-
-  - Write pkg/git/email.go
-  - Write pkg/gpg/keys.go
-  - Compare commit email with GPG key email
-
-  Section 4: Check Changelog Fragment
-
-  - Write pkg/changelog/fragment.go
-  - Detect repo type (kubevirt vs ovirt)
-  - Look for changelog in correct location
-
-  Section 5: Validate Commit Messages
-
-  - Check for "WIP" in messages
-  - Validate format (conventional commits?)
-  - Check for sign-off (DCO)
-
-  Section 6: Polish & Testing
-
-  - Add colors to output (✓ green, ✗ red)
-  - Write unit tests
-  - Add CLI flags
-  - Create installation instructions
-
-  Installation (Future)
-
-  go install github.com/kelwhite/prcheck@latest
-
-  Contributing
-
-  This is a learning project! Contributions welcome.
+  ```
 
   License
-
   MIT
-
