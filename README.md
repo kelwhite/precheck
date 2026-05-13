@@ -35,7 +35,6 @@
   - [ ] Validate PR description
 
   ## Project Structure
-
   prcheck/
   ├── main.go                  # Entry point - orchestrates all checks
   ├── go.mod                   # Go module dependencies
